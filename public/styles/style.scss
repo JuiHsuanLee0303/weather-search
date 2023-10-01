@@ -14,7 +14,7 @@ body {
   margin: 0px;
   min-height: 100%;
   width: 100%;
-  background-image: url("weather.jpg");
+  background-image: url("../images/weather.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -79,7 +79,7 @@ input[type="text"] {
   border-radius: 4px;
   font-size: 16px;
   background-color: white;
-  background-image: url("search.png");
+  background-image: url("../images/search.png");
   background-position: 9px 7px;
   background-size: auto 70%;
   background-repeat: no-repeat;
