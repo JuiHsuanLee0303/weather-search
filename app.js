@@ -25,6 +25,7 @@ app.get("/", (req, res) => {
 });
 
 app.post("/", (req, res) => {
+  console.log(req.body);
   let { city } = req.body;
   console.log(city);
   let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${weatherKey}`;
